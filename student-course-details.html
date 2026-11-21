@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSE Department — Student Details</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #172033;
+      background: #fffdf2;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 14px 12px 18px;
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      color: #1937a6;
+      text-align: center;
+      font-size: clamp(1.8rem, 4vw, 2.2rem);
+    }
+
+    section {
+      width: 100%;
+      margin: 0 0 18px;
+      padding: 26px 24px 30px;
+      min-height: 286px;
+    }
+
+    .student {
+      background: #bfe8c9;
+    }
+
+    .registration {
+      background: #c5d8fa;
+    }
+
+    h2 {
+      margin: 18px 0 20px;
+      color: #182238;
+      text-align: center;
+      font-size: 1.45rem;
+    }
+
+    p {
+      margin: 0 0 15px;
+      font-size: 1.05rem;
+      line-height: 1.4;
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    @media (max-width: 520px) {
+      body { padding: 12px 10px; }
+      section { min-height: 0; padding: 18px 16px 24px; }
+      h2 { margin: 10px 0 18px; font-size: 1.25rem; }
+      p { font-size: 1rem; overflow-wrap: anywhere; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>CSE DEPARTMENT</h1>
+
+    <section class="student" aria-labelledby="student-heading">
+      <h2 id="student-heading">Division 1 - Personal Information</h2>
+      <p>Name: Hutheesh</p>
+      <p>Department: Computer Science and Engineering</p>
+      <p>College: KL University</p>
+      <p>Year: First Year</p>
+      <p>Branch: CSE (AI &amp; ML)</p>
+    </section>
+
+    <section class="registration" aria-labelledby="registration-heading">
+      <h2 id="registration-heading">Division 2 - Course Registration Details</h2>
+      <p>Course 1: Python Programming</p>
+      <p>Course 2: Java Programming</p>
+      <p>Course 3: Data Structures</p>
+      <p>Course 4: Database Management</p>
+      <p>Course 5: Web Technologies</p>
+    </section>
+  </main>
+</body>
+</html>
